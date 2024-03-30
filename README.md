@@ -2,7 +2,7 @@
 
 This is a [Responsive Web Developer Path Challenge](https://devchallenges.io/challenge/testimonial-page) from [deveChallenge.io](https://devchallenges.io)
 
-Demo site: [Testimonial Page](https://alberto-rj.github.io/testimonial-page/index.html)
+Demo site: [Testimonial Page](https://alberto-rj.github.io/accessible-home-page/index.html)
 
 ## Mobile Version
 
@@ -15,4 +15,3 @@ Demo site: [Testimonial Page](https://alberto-rj.github.io/testimonial-page/inde
 ## Desktop Version
 
 ![Desktop Screenshot](screenshot/screenshot-desktop.png)
->>>>>>> eb79f81 (Initial commit)
