@@ -1,0 +1,98 @@
+.dark-mode body {
+  background-color: var(--color-3);
+  color: var(--color-5);
+}
+
+.dark-mode *:focus-visible {
+  outline-color: var(--color-7);
+}
+
+.dark-mode .logo a {
+  color: var(--color-7);
+}
+
+.dark-mode .logo a:hover,
+.dark-mode .logo a:focus-visible {
+  color: var(--color-5);
+}
+
+.dark-mode .hamburger-menu__bar {
+  background-color: var(--color-7);
+}
+
+.dark-mode .hamburger-menu:hover
+.hamburger-menu__bar,
+.dark-mode .hamburger-menu:focus-visible 
+.hamburger-menu__bar {
+  background-color: var(--color-5);
+}
+
+.dark-mode .nav {
+  background-color: var(--color-3);
+}
+
+.dark-mode .close-menu {
+  color: var(--color-7);
+}
+
+.dark-mode .close-menu:hover,
+.dark-mode .close-menu:focus-visible {
+  color: var(--color-5);
+}
+
+.dark-mode .menu a:hover,
+.dark-mode .menu a:focus-visible {
+  color: var(--color-7);
+}
+
+.dark-mode .switch {
+  background-color: var(--color-5);
+}
+.dark-mode .switch-container:hover .switch,
+.dark-mode .switch-container:focus-visible .switch,
+.dark-mode .switch-container:hover .sun-icon
+.dark-mode .switch-container:focus-visible .sun-icon {
+  background-color: var(--color-5);
+}
+
+.dark-mode .menu li.active a {
+  color: var(--color-7);
+}
+
+.dark-mode .moon-icon {
+  background-image: url("../images/moon_fill.svg");
+}
+
+.dark-mode .intro h1,
+.dark-mode .intro h2 {
+  color: var(--color-7);
+}
+.dark-mode .actions .action {
+  color: var(--color-7);
+}
+.dark-mode .actions .action:hover,
+.dark-mode .actions .action:focus-visible {
+  color: var(--color-5);
+}
+
+.dark-mode .actions .action--primary {
+  color: var(--color-7);
+}
+
+.dark-mode .actions .action--primary:hover,
+.dark-mode .actions .action--primary:focus-visible {
+  background-color: var(--color-3);
+  color: var(--color-7);
+  outline: 2px solid var(--color-7);
+}
+.dark-mode .main-footer a {
+  color: var(--color-7);
+}
+.dark-mode .main-footer a:hover,
+.dark-mode .main-footer a:focus-visible {
+  color: var(--color-5);
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

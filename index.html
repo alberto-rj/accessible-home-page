@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Home Page</title>
+  <script src="theme.js"></script>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style-dark.css">
+</head>
+<body>
+  
+  <div class="menu-overlay"></div>
+  <div class="menu-caller"></div>
+
+  <!-- Begin of Main Header -->
+  <header class="container main-header">
+    <h1 class="logo">
+      <a href="index.html">
+        <span aria-hidden="true" class="logo__icon"></span>
+        <span class="logo__text">Alarado</span>
+      </a>
+    </h1>
+    <button 
+      type="button" 
+      class="hamburger-menu" 
+      aria-label="Open main menu" 
+      aria-controls="nav-menu" 
+      aria-expanded="false"
+    >
+      <span class="hamburger-menu__bar"></span>
+      <span class="hamburger-menu__bar"></span>
+      <span class="hamburger-menu__bar"></span>
+    </button>
+    <nav id="nav-menu" class="nav hidden" aria-labelledby="main-menu-label" tabindex="-1">
+      <h2 id="main-menu-label" class="visually-hidden">Main Menu</h2>
+      <button 
+        type="button" 
+        class="close-menu" 
+        aria-controls="nav-menu" 
+        aria-label="Close main menu" 
+        aria-expanded="false"
+      >
+      <span aria-hidden="true">&times;</span>
+      </button>
+      <ul class="menu">
+        <li class="active"><a href="#">About us</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Resource</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span
+        role="switch" 
+        aria-label="Dark mode" 
+        aria-checked="false" 
+        tabindex="0" 
+        data-checked="Light mode" 
+        data-unchecked="Dark mode" 
+        class="switch-container"
+      >
+        <span class="switch">
+          <span class="moon-icon"></span>
+          <span class="sun-icon"></span>
+        </span>
+      </span>
+    </nav>
+  </header>
+  <!-- End of Main Header -->
+
+
+  <!-- Begin of Main Content -->
+  <main class="container main-content">
+    <section class="hero">
+      <div class="image-wrapper">
+        <img src="assets/images/hero-image-simple-homepage.png" alt="Simple Home Page">
+      </div>
+      <div class="intro">
+        <h1><span aria-hidden="true">😎</span> Simple way to communicate</h1>
+        <h2>Actions for Accessibility in Design</h2>
+        <p>The fastest way to build and deploy websites with resusable components.</p>
+        <div class="actions">
+          <a class="action action--primary" href="#">Get Started</a>
+          <a class="action" href="#">Get live demo</a>
+        </div>
+        <ul>
+          <li>No credit card required</li>
+          <li>No software to install</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- End of Main Content -->
+
+
+  <!-- Begin of Main Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <p>
+        Project by <a href="https://devchallenges.io" target="_blank">devChallenges.io</a> -
+        Built with <span aria-hidden="true">❤️</span><span class="visually-hidden">love</span> by <a href="https://github.com/alberto-rj" target="_blank">Alberto Raúl José</a>
+      </p>
+    </div>
+  </footer>
+  <!-- End of Main Footer -->
+
+  
+  <script src="switch.js"></script>
+  <script src="keyboard-trap.js"></script>
+  <script src="touch-swap.js"></script>
+  <script src="navbar.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
