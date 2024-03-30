@@ -4,14 +4,8 @@ This is a [Responsive Web Developer Path Challenge](https://devchallenges.io/cha
 
 Demo site: [Testimonial Page](https://alberto-rj.github.io/accessible-home-page/index.html)
 
-## Mobile Version
+- **Mobile Version:** ![Mobile Screenshot](screenshot/screenshot-mobile.png)
 
-![Mobile Screenshot](screenshot/screenshot-mobile.png)
+- **Tablet Version:** ![Tablet Screenshot](screenshot/screenshot-tablet.png)
 
-## Tablet Version
-
-![Tablet Screenshot](screenshot/screenshot-tablet.png)
-
-## Desktop Version
-
-![Desktop Screenshot](screenshot/screenshot-desktop.png)
+- **Desktop Version** ![Desktop Screenshot](screenshot/screenshot-desktop.png)
