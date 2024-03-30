@@ -6,10 +6,12 @@ Demo site: [Testimonial Page](https://alberto-rj.github.io/accessible-home-page/
 
 - **Mobile Version:** 
 
-  - ![Mobile Screenshot](screenshot/screenshot-mobile.png)
+  ![Mobile Screenshot](screenshot/screenshot-mobile.png)
 
 - **Tablet Version:** 
-  - ![Tablet Screenshot](screenshot/screenshot-tablet.png)
+
+  ![Tablet Screenshot](screenshot/screenshot-tablet.png)
 
 - **Desktop Version:** 
-  - ![Desktop Screenshot](screenshot/screenshot-desktop.png)
+
+  ![Desktop Screenshot](screenshot/screenshot-desktop.png)
