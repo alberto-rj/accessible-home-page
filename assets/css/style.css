@@ -19,8 +19,6 @@ html {
   --color-5: #909193;
   --color-6: #F2F9FE;
   --color-7: #FFFFFF;
-  --transition-duration: 0.4s;
-  --transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 *::before,
@@ -33,7 +31,7 @@ html {
 
 body {
   background-color: var(--color-6);
-  color: var(--color-5);
+  color: var(--color-4);
   font-family: Poppins, sans-serif;
   font-size: 1.125rem;
 }
@@ -358,8 +356,6 @@ img {
 }
 
 .intro p {
-  font-weight: 600;
-  font-size: 1.125rem;
   margin-top: 1.5rem;
   max-width: 25rem;
 }
