@@ -94,5 +94,98 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
+  body {
+    background-color: var(--color-3);
+    color: var(--color-5);
+  }
+  
+  *:focus-visible {
+    outline-color: var(--color-7);
+  }
+  
+  .logo a {
+    color: var(--color-7);
+  }
+  
+  .logo a:hover,
+  .logo a:focus-visible {
+    color: var(--color-5);
+  }
+  
+  .hamburger-menu__bar {
+    background-color: var(--color-7);
+  }
+  
+  .hamburger-menu:hover
+  .hamburger-menu__bar,
+  .hamburger-menu:focus-visible 
+  .hamburger-menu__bar {
+    background-color: var(--color-5);
+  }
+  
+  .nav {
+    background-color: var(--color-3);
+  }
+  
+  .close-menu {
+    color: var(--color-7);
+  }
+  
+  .close-menu:hover,
+  .close-menu:focus-visible {
+    color: var(--color-5);
+  }
+  
+  .menu a:hover,
+  .menu a:focus-visible {
+    color: var(--color-7);
+  }
+  
+  .switch {
+    background-color: var(--color-5);
+  }
+  .switch-container:hover .switch,
+  .switch-container:focus-visible .switch,
+  .switch-container:hover .sun-icon
+  .switch-container:focus-visible .sun-icon {
+    background-color: var(--color-5);
+  }
+  
+  .menu li.active a {
+    color: var(--color-7);
+  }
+  
+  .moon-icon {
+    background-image: url("../images/moon_fill.svg");
+  }
+  
+  .intro h1,
+  .intro h2 {
+    color: var(--color-7);
+  }
+  .actions .action {
+    color: var(--color-7);
+  }
+  .actions .action:hover,
+  .actions .action:focus-visible {
+    color: var(--color-5);
+  }
+  
+  .actions .action--primary {
+    color: var(--color-7);
+  }
+  
+  .actions .action--primary:hover,
+  .actions .action--primary:focus-visible {
+    background-color: var(--color-3);
+    color: var(--color-7);
+    outline: 2px solid var(--color-7);
+  }
+  .main-footer a {
+    color: var(--color-7);
+  }
+  .main-footer a:hover,
+  .main-footer a:focus-visible {
+    color: var(--color-5);
+  }
 }
