@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accessible Home Page</title>
+  <meta name="description" content="Simple Homepage Alarado, a Web Developer Path Challenge from devchallenges.io" >
   <script src="theme.js"></script>
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -73,7 +74,16 @@
   <main class="container main-content">
     <section class="hero">
       <div class="image-wrapper">
-        <img src="assets/images/hero-image-simple-homepage.png" alt="Simple Home Page">
+        <img 
+          alt="Simple Home Page" 
+          src="assets/images/hero-1010x913.png" 
+          srcset="
+            assets/images/hero-270x244.png 270w, 
+            assets/images/hero-640x579.png 640w, 
+            assets/images/hero-1010x913.png 1010w, 
+            assets/images/hero-1280x1157.png 1280w
+          "
+        >
       </div>
       <div class="intro">
         <h1><span aria-hidden="true">😎</span> Simple way to communicate</h1>
