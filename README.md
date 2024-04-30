@@ -2,7 +2,7 @@
 
 This is a [Responsive Web Developer Path Challenge](https://devchallenges.io/challenge/simple-hompage-alarado) from [deveChallenge.io](https://devchallenges.io)
 
-Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-home-page/index.html)
+Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-homepage/index.html)
 
 <details>
   <summary>Mobile Version</summary>
