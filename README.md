@@ -16,12 +16,12 @@ Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-homepag
 </details>
 
 <details>
-  <summary>Tablet Version</summary> 
+  <summary>Tablet Version</summary>
   <img src="screenshot/screenshot-tablet-dark.png" alt="Tablet Dark Mode Screenshot">
 </details>
 
 <details>
-  <summary>Desktop Version</summary> 
+  <summary>Desktop Version</summary>
   <img alt="Desktop Dark Mode Screenshot" src="screenshot/screenshot-desktop-dark.png">
 </details>
 
@@ -33,11 +33,11 @@ Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-homepag
 </details>
 
 <details>
-  <summary>Tablet Version</summary> 
+  <summary>Tablet Version</summary>
   <img src="screenshot/screenshot-tablet.png" alt="Tablet Light Mode Screenshot">
 </details>
 
 <details>
-  <summary>Desktop Version</summary> 
+  <summary>Desktop Version</summary>
   <img alt="Desktop Light Mode Screenshot" src="screenshot/screenshot-desktop.png">
 </details>
