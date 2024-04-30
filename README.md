@@ -1,4 +1,4 @@
-# Accessible home page
+# Accessible homepage
 
 This is a [Responsive Web Developer Path Challenge](https://devchallenges.io/challenge/simple-hompage-alarado) from [deveChallenge.io](https://devchallenges.io)
 
