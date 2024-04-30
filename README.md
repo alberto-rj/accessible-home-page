@@ -6,7 +6,7 @@ This is a solution for [Responsive Web Developer Path Challenge](https://devchal
 
 Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-homepage/index.html)
 
-## Screenshot
+## Screenshots
 
 ### Dark Mode
 
