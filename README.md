@@ -2,7 +2,7 @@
 
 ![Desktop Dark Mode Screenshot](screenshot/screenshot-desktop-dark.png)
 
-This is a solution for [Responsive Web Developer Path Challenge](https://devchallenges.io/challenge/simple-hompage-alarado) from [deveChallenge.io](https://devchallenges.io)
+This is a solution to the [Simple Homepage - Alarado](https://devchallenges.io/challenge/simple-hompage-alarado) challenge on devChallenges
 
 Demo site: [Accessible Homepage](https://alberto-rj.github.io/accessible-homepage/index.html)
 
